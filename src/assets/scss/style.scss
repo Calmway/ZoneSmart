@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'GraphikLCG';
+    src: url('../fonts/GraphikLCG-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body {
+    background: #bebebe;
+    font-family: 'GraphikLCG';
+}
+div, input {
+    box-sizing: border-box;
+}
+input {
+    border-radius: 5px;
+    background: #F2F1F3;
+    border: 1px solid #F2F1F3;
+    padding: 5px;
+    outline: none;
+}
+input:focus {
+    border-color: #000;
+}
+input::placeholder {
+    color: #999999;
+}
+button {
+    border-radius: 5px;
+    background: #F2F1F3;
+    border: 1px solid #F2F1F3;
+}
+p {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .my-products-component {
+        overflow-x: auto;
+    }
+    .list-products-wrapper {
+        min-width: 1024px;
+    }
+}
