@@ -1,4 +1,4 @@
-# Vue 3 (Options API, Vuex< VueRouter, Axios, Await-to-js, SweetAlert2, Pug, Sass + Vite
+# Vue 3 (Options API, Vuex, VueRouter, Axios, Await-to-js, SweetAlert2, Pug, Sass + Vite
 
 Steps to start the project:
 1. npm i
